@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 import { useDispatch } from "react-redux";
-import { deleteContact } from "../../redux/operation";
+import { deleteContact } from "../../redux/contacts/operation";
 import s from "./Contact.module.css";
 
 const Contact = ({ user }) => {
