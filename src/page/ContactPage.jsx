@@ -9,6 +9,7 @@ function ContactPage() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchContacts());
+    console.log("jjjnjj");
   }, [dispatch]);
   return (
     <div>
